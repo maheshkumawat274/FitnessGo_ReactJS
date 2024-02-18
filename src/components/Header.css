@@ -1,0 +1,29 @@
+
+.HeaderSection2 ul li{
+  cursor: pointer;
+  margin-left: 15px;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+}
+.HeaderSection2 ul li:hover{
+  transition: .5s;
+  color: rgb(0, 251, 0);
+}
+.HeaderSection3 button{
+  background-color: rgb(0, 251, 0);
+  color: black;
+  border: none;
+}
+.HeaderSection3 button:hover{
+  background-color: black;
+  color: white;
+}
+.HeaderSection3 img{
+  cursor: pointer;
+}
+@media (min-width:450px) and (max-width:1400px) {
+  .HeaderSection{
+    flex-direction: column;
+  }
+}

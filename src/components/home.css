@@ -1,0 +1,119 @@
+.Home-image{
+  height: 80vh;
+  width: 100%;
+  background-image: url("https://www.frontsigns.com/wp-content/uploads/2021/07/gym-design-ideas.jpg");
+  background-size: 100% 100%;
+  
+}
+.homecontent{
+  background-color: black;
+}
+.homecontent button{
+  background-color: rgb(0, 251, 0);
+  color: black;
+  border: none;
+  padding: 5px 10px 5px 10px;
+  border: 2px solid transparent;
+}
+.homecontent button:hover{
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+}
+.hometext1{
+  font-size: 70px;
+  font-weight: 700;
+}
+.hometext2{
+  font-size: 20px;
+}
+.homecontent1 button{
+  background-color: rgb(0, 251, 0);
+  color: black;
+  border: none;
+  padding: 5px 10px 5px 10px;
+  border: 2px solid transparent;
+}
+.homecontent1 button:hover{
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+}
+@media (min-width:450px) and (max-width:800px) {
+  .Home-image{
+    height: 50vh;
+  }
+}
+.homecontent2{
+  height: 120vh;
+  width: 100%;
+  background-image: url("https://static.wixstatic.com/media/d3fada_ce4bbb92f2be49b8a0ba8d0d16a13b1e~mv2.jpg/v1/fill/w_1899,h_988,al_b,q_85,usm_0.66_1.00_0.01,enc_auto/d3fada_ce4bbb92f2be49b8a0ba8d0d16a13b1e~mv2.jpg");
+  background-size: 100% 100%;
+}
+.homeimage img{
+  margin-top: 5%;
+}
+.journey-btn button{
+  background-color: rgb(0, 251, 0);
+  color: black;
+  border: none;
+  padding: 10px 200px 10px 200px;
+  border: 2px solid transparent;
+}
+.journey-btn button:hover{
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+}
+.homecard-content h1{
+  font-size: 35px;
+  font-weight: 900;
+}
+.homecontent4images{
+  display: flex;
+  height: 68%;
+}
+.homecontent4images img{
+  width: 50%;
+  height: 85%;
+}
+.homecontent4images2{
+  margin-top: 13%;
+}
+.homecontent5 button{
+  background-color: rgb(0, 251, 0);
+  color: black;
+  border: none;
+  padding: 10px 200px 10px 200px;
+  border: 2px solid transparent;
+}
+.homecontent5 button:hover{
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+}
+.homecontent6{
+  height: 50vh;
+  width: 100%;
+  background-image: url('https://static.wixstatic.com/media/d3fada_dc4cbee165e44326bd1979e8664676a1~mv2.jpg/v1/fill/w_1899,h_515,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/d3fada_dc4cbee165e44326bd1979e8664676a1~mv2.jpg');
+  background-size: 100% 100%;
+}
+.homecontent6-text{
+  position: relative;
+  padding-top:10%;
+  text-align: center;
+}
+.homecontentbtn{
+  background-color: rgb(0, 251, 0);
+  color: black;
+  border: none;
+  padding: 10px 200px 10px 200px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+}
+.homecontentbtn:hover{
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  transition: .5s;
+}

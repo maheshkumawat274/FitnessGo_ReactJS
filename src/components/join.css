@@ -1,0 +1,25 @@
+.joincontent{
+  height: 70vh;
+  width: 100%;
+  background-image: url('https://static.wixstatic.com/media/d3fada_5f18d7cbb55740d6ae4037e0305ccbf3~mv2.png/v1/fill/w_1899,h_769,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/d3fada_5f18d7cbb55740d6ae4037e0305ccbf3~mv2.png');
+  background-size: 100% 100%;
+}
+.joincontent1{
+  background-color: black;
+  border: 2px solid rgb(0, 251, 0);
+  border-radius: 5px;
+}
+.joincontent2{
+  background-color: black;
+  border: 2px solid rgb(0, 251, 0);
+  border-radius: 5px;
+}
+.jointext button{
+  padding: 10px 200px 10px 200px;
+  background-color: black;
+  color: white;
+}
+.jointext button:hover{
+  background-color: rgb(0, 251, 0);
+  transition: .5s;
+}
