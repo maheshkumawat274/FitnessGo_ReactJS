@@ -1,14 +1,11 @@
 import React from 'react'
 import  './home.css'
-import Map from './Map'
 import Footer from './Footer'
 function Home() {
   return (
     <>
-      
-        <div className='Home-image'>njkm</div>
-      <div className='homecontent container-fluid p-3 text-light text-center'>
-          <h1>2-FOR-1 <br/>ENROLLMENT</h1>
+      <div className='homecontent container-fluid p-5 text-light text-center'>
+          <h1 className='pt-5 mt-5'>2-FOR-1 <br/>ENROLLMENT</h1>
           <h2>FOR COUPLES AND BEST FRIENDS!</h2>
           <button className='btn btn-danger'>CLICK HERE FOR FREE DAY PASS</button>
         </div>
@@ -107,10 +104,7 @@ function Home() {
         <div className='contaier-fluid'>
           {/* <Map/> */}
         </div>
-        <div className='container-fluid'>
-          
-          <Footer/>
-        </div>
+        
     </>
   )
 }

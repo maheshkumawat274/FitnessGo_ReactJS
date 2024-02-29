@@ -2,16 +2,16 @@ import React from 'react'
 import Header from './Header'
 import './facilities.css'
 import Footer from './Footer'
+import { Link } from 'react-router-dom'
 function Facilities(x) {
   return (
     <>
     <div>
-    <Header/>
     </div>
     <div className='facicontent text-center text-light'>
       <h1>$2 Million-Dollars in Renovations!</h1>
       <p>Come in and experience the best gym in the Port Saint Lucie area.</p>
-      <button className='btn'>Join Now</button>
+      <Link to='/join'><button className='btn'>Join Now</button></Link>
     </div>
     <div className='container-fluid p-5'>
       <div className='row'>

@@ -5,7 +5,6 @@ import Footer from './Footer'
 function Training() {
   return (
     <>
-    <Header/>
     <div className='traincontent1'>
     </div>
     <div className='container-fluid p-3'>

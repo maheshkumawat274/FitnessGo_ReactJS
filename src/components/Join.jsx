@@ -2,11 +2,11 @@ import React from 'react'
 import './join.css'
 import Header from './Header'
 import Footer from './Footer'
-function Join({joincotent,common}) {
+import { Link } from 'react-router-dom'
+function Join({joincotent,common,onSidebarToggle}) {
   console.log({joincotent})
   return (
     <>
-      <Header/>
      <div className='joincontent'></div>
      <div className='container-fluid text-center text-light p-3' style={{backgroundColor:"black"}}>
       <h1>MEMBERSHIP OPTIONS</h1>
@@ -48,7 +48,7 @@ function Join({joincotent,common}) {
       <div className='jointext container-fluid pt-3 text-dark mt-1 text-center'>
         <p>Weekend Only membership not shown -- Minimum age to become a member is 16 years.</p>
         <h1 className='fs-3 fw-bold'>Click below to schedule your gym tour. We will respond promptly.</h1>
-        <button className='btn'>CLICK HERE</button>
+        <Link to='/register'><button className='btn'>CLICK HERE</button></Link>
       </div>
      </div>
      <div className='container-fluid'>

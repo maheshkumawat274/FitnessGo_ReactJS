@@ -7,7 +7,10 @@ import Facilities from './components/Facilities'
 import Join from './components/Join'
 import Gallery from './components/Gallery'
 import About from './components/About'
-import Merch from './components/Merch'
+import Header from './components/Header'
+import Registeration from './components/Registeration'
+import { useState } from 'react'
+import Userlist from './components/Userlist'
 
 function App() {
   const Joincotent = [
@@ -54,20 +57,24 @@ function App() {
       item:'UNLIMITED MASSAGE CHAIR'
     }
   ];
-  const Common =['https://static.wixstatic.com/media/2820f4_35c945009ca44f619c9eb024eb48865f~mv2.png/v1/fill/w_81,h_81,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/check%20(1).png']
+  const Common =['https://static.wixstatic.com/media/2820f4_35c945009ca44f619c9eb024eb48865f~mv2.png/v1/fill/w_81,h_81,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/check%20(1).png'];
+
 
   return (
     <>
+   
       <BrowserRouter>
+      <Header/>
         <Routes>
+        
           <Route path='/'element={<HomePage/>}></Route>
-          <Route path='/training' element={<Training/>}></Route>
+          <Route path='/training' element={<Training  />}></Route>
           <Route path='/facilities' element={<Facilities/>}></Route>
           <Route path='/join' element={<Join joincotent = {Joincotent} common = {Common} />}></Route>
           <Route path='/about' element={<About/>}></Route>
-          <Route path='/merch' element={<Merch/>}></Route>
           <Route path='/gallery' element={<Gallery/>}></Route>
-          
+          <Route path='/register'element={<Registeration/>}></Route>
+          <Route path='/userlist' element={<Userlist/>}></Route>
         </Routes>
       </BrowserRouter>
     </>
