@@ -37,13 +37,11 @@ function Registeration() {
   return (
     <>
      <div className='container-fluid'>
-      <div className='registercontent container-fluid w-50'>
-        <div className='container bg-dark w-75'>
-        <div className='row'>
-          <div className='col-sm-12 d-flex justify-content-center'>
-            <div className='card bg-dark text-white' style={{marginTop:"20%",position:"static"}}>
-              <img className='img-fluid' src='/imgs/register.webp'></img>
-              <div className='card-body'>
+      <div className='registercontent container-fluid bg-light d-flex justify-content-center text-white'>
+        <div className='registermain bg-dark p-5'>
+        <div className='text-center'>
+          <img className='img-fluid' src='/imgs/register.webp'></img>
+        </div>
                 <div className='registertext1'>COMPLETE THIS FORM AND A MEMBERSHIP</div>
                 <div className='registertext2'>ADVISOR WILL CONTACT YOU FOR YOUR FREE DAY PASS!</div>
                 <div className='registertext3'>MUST BE 18+ AND LOCAL RESIDENT.BY APPOINTMENT ONLY</div><br/>
@@ -61,10 +59,6 @@ function Registeration() {
                 <input type='radio' name='radio' value='LOSE WEIGHT' onChange={RadioHandler}></input>LOSE WEIGHT <br/>
                 <input type='radio' name='radio' value='GAIN WEIGHT' onChange={RadioHandler}></input>GAIN WEIGHT<br/><br/>
                 <button className='submitbtn'  onClick={Formdetail}><Link to='/userlist'style={{textDecoration:"none",color:"white"}}>Submit</Link></button>
-              </div>
-            </div>
-          </div>
-      </div>
         </div>
       </div>
      </div>

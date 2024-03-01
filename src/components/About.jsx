@@ -5,7 +5,8 @@ import Footer from './Footer'
 function About() {
   return (
     <>
-     
+     <div className='container-fluid'>
+      
      <div className='aboutcontent container-fluid text-light d-flex justify-content-center align-items-center' style={{backgroundColor:"black"}}>
       <h1 className='pt-5 fw-bold'>
       Welcome to the    <img src='https://static.wixstatic.com/media/d3fada_e92277911ce041ebb03f6232d64274a1~mv2.png/v1/fill/w_58,h_58,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/FitnessNGo_black%20green%20code%20is%20rg%20%2300fb00%20%20cmyk%20c64%20m0%20y100%20k0%20-%20Copy.png'/>      Experience
@@ -24,6 +25,7 @@ function About() {
      </div>
      <div className='container-fluid'>
       <Footer/>
+     </div>
      </div>
     </>
   )

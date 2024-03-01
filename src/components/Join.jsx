@@ -48,7 +48,7 @@ function Join({joincotent,common,onSidebarToggle}) {
       <div className='jointext container-fluid pt-3 text-dark mt-1 text-center'>
         <p>Weekend Only membership not shown -- Minimum age to become a member is 16 years.</p>
         <h1 className='fs-3 fw-bold'>Click below to schedule your gym tour. We will respond promptly.</h1>
-        <Link to='/register'><button className='btn'>CLICK HERE</button></Link>
+        <Link to='/register'><button className='btn btn-light px-5'>CLICK HERE</button></Link>
       </div>
      </div>
      <div className='container-fluid'>

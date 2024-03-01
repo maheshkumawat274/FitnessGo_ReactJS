@@ -1,13 +1,15 @@
 import React from 'react'
 import  './home.css'
 import Footer from './Footer'
+import { Link } from 'react-router-dom'
 function Home() {
   return (
     <>
+      <div className='container-fluid'>
       <div className='homecontent container-fluid p-5 text-light text-center'>
           <h1 className='pt-5 mt-5'>2-FOR-1 <br/>ENROLLMENT</h1>
           <h2>FOR COUPLES AND BEST FRIENDS!</h2>
-          <button className='btn btn-danger'>CLICK HERE FOR FREE DAY PASS</button>
+          <Link to='/register'><button className='btn btn-danger'>CLICK HERE FOR FREE DAY PASS</button></Link>
         </div>
         <div className='container-fluid'>
           <div className='row'>
@@ -26,7 +28,7 @@ function Home() {
             <div className='container'>
               <div className='row text-light'>
                 <div className='col-lg-6 col-md-12 col-sm-12 pt-5'>
-                  <h1 className='fw-bolder p-5 pt-5' style={{fontSize:"100px"}}>Why <img src='https://static.wixstatic.com/media/d3fada_e92277911ce041ebb03f6232d64274a1~mv2.png/v1/fill/w_58,h_58,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/FitnessNGo_black%20green%20code%20is%20rg%20%2300fb00%20%20cmyk%20c64%20m0%20y100%20k0%20-%20Copy.png'/> is?</h1>
+                  <h1 className='homecontent2text fw-bolder p-5 pt-5'>Why <img src='https://static.wixstatic.com/media/d3fada_e92277911ce041ebb03f6232d64274a1~mv2.png/v1/fill/w_58,h_58,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/FitnessNGo_black%20green%20code%20is%20rg%20%2300fb00%20%20cmyk%20c64%20m0%20y100%20k0%20-%20Copy.png'/> is?</h1>
                   <h4 className='px-5' style={{fontWeight:"800"}}>Luxury Gym Experience Everyone Can Afford.</h4>
                   <ul className='homecard-content list-unstyled p-5'>
                     <li className='d-flex'>
@@ -51,7 +53,7 @@ function Home() {
                   </ul>
                 </div>
                 <div className='homeimage col-lg-6 col-md-12 col-sm-12'>
-                  <img className='img-fluid' src='https://static.wixstatic.com/media/d3fada_7bf960455e3d42c7b2b86d7f557c3fe2~mv2.jpg/v1/fill/w_545,h_826,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Image%204-10-23%20at%201_edited_edited.jpg'/>
+                <img className='img-fluid' src='https://static.wixstatic.com/media/d3fada_7bf960455e3d42c7b2b86d7f557c3fe2~mv2.jpg/v1/fill/w_545,h_826,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Image%204-10-23%20at%201_edited_edited.jpg'/>
                 </div>
               </div>
             </div>
@@ -64,7 +66,7 @@ function Home() {
             </div>
             <div className='col-lg-6 col-md-12 col-sm-12 pt-5'>
                 <h1 className='fw-bold pt-4 px-5'>The  <img className='img-fluid' src='https://static.wixstatic.com/media/d3fada_e92277911ce041ebb03f6232d64274a1~mv2.png/v1/fill/w_58,h_58,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/FitnessNGo_black%20green%20code%20is%20rg%20%2300fb00%20%20cmyk%20c64%20m0%20y100%20k0%20-%20Copy.png'/>    Experience</h1>
-                <p className='fs-5'>Cleanliness & Friendliness, Guaranteed. Fitness nGo carries the latest and greatest cardio and strength training equipment available, exciting nGo classes, Personal Training, Tanning, Cryo-Therapy, Hydromassage, Kids Club, and the greatest atmosphere in the city.</p>
+                <p className='fs-5 px-5'>Cleanliness & Friendliness, Guaranteed. Fitness nGo carries the latest and greatest cardio and strength training equipment available, exciting nGo classes, Personal Training, Tanning, Cryo-Therapy, Hydromassage, Kids Club, and the greatest atmosphere in the city.</p>
             </div>
           </div>
         </div>
@@ -80,8 +82,8 @@ function Home() {
             </div>
             <div className='col-lg-6 col-md-12 col-sm-12'>
               <img className='img-fluid' src='https://static.wixstatic.com/media/2820f4_95c3bfd8268f402493fae44990832814~mv2.jpg/v1/fill/w_679,h_509,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/IMG-1957_edited.jpg'></img>
-              <h1 className='pt-5 mt-5 fw-bold'>TURF ZONE</h1>
-              <p className='fs-5 pt-3'>The perfect place to knock out those athletic<br/> workouts, take content, and use the TANK.</p>
+              <h1 className='pt-5 px-5 mt-5 fw-bold'>TURF ZONE</h1>
+              <p className='fs-5 px-5 pt-3'>The perfect place to knock out those athletic<br/> workouts, take content, and use the TANK.</p>
             </div>
           </div>
         </div>
@@ -98,12 +100,13 @@ function Home() {
           </div>
         </div>
         <div className='homecontent6 text-center pt-5'>
-            <h1 className='text-light pt-5' style={{fontWeight:"900",fontSize:"100px"}}>JOIN TODAY</h1>
-            <button className='homecontentbtn'>FREE PASS</button>
+            <h1 className='text-light pt-5'>JOIN TODAY</h1>
+            <Link to='/register'><button className='btn btn-danger px-5'>FREE PASS</button></Link>
         </div>
         <div className='contaier-fluid'>
           {/* <Map/> */}
         </div>
+      </div>
         
     </>
   )

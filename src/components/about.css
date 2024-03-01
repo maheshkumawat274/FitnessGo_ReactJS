@@ -1,5 +1,5 @@
 .aboutcontent{
-  height: 50vh;
+  height: 60vh;
   width: 100%;
 }
 .aboutcontent h1{
@@ -8,22 +8,18 @@
 @media (min-width:450px) and (max-width:750px) {
   .aboutcontent h1{
     font-size: 30px;
-    padding-top: 50px;
-    position: relative;
-    top: 15%;
+    margin-top: 25%;
   }
 }
 @media (min-width:900px) and (max-width:991px){
   .aboutcontent h1{
-    position: relative;
-    top: 15%;
+    margin-top: 15%;
   }
 
 }
 @media (min-width:750px) and (max-width:900px){
   .aboutcontent h1{
-    position: relative;
-    top: 15%;
+    margin-top: 15%;
     font-size: 50px;
   }
 

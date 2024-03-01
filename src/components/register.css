@@ -29,3 +29,13 @@
   background-color: black;
   border: 2px solid white;
 }
+.registermain{
+  width: 50%;
+  margin-top: 5%;
+}
+@media (min-width:450px) and (max-width:900px) {
+  .registermain{
+    margin-top: 35%;
+    width: 70%;
+  }
+}

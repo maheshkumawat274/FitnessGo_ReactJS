@@ -5,14 +5,14 @@ function Footer() {
     <>
      <div className='container-fluid p-5' style={{backgroundColor:"white"}}>
      <div className='container-fluid d-flex justify-content-around align-items-center'>
-          <img className='img-fluid' src='https://static.wixstatic.com/media/d3fada_aab824fb2b7d4473bf4e40b243bc538c~mv2.png/v1/fill/w_243,h_84,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/FitnessNGo_black.png'></img>
+          <img style={{height:"70px",width:'150px'}} className='img-fluid' src='https://static.wixstatic.com/media/d3fada_aab824fb2b7d4473bf4e40b243bc538c~mv2.png/v1/fill/w_243,h_84,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/FitnessNGo_black.png'></img>
           <div className=''>
               <img className='img-fluid' src='https://static.wixstatic.com/media/0fdef751204647a3bbd7eaa2827ed4f9.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/0fdef751204647a3bbd7eaa2827ed4f9.png'></img>
               <img className='img-fluid' src='https://static.wixstatic.com/media/01c3aff52f2a4dffa526d7a9843d46ea.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/01c3aff52f2a4dffa526d7a9843d46ea.png'></img>
               <img className='img-fluid' src='/imgs/tiktok.png'></img>
           </div>
           </div>
-      <div className='container'>
+      <div className='container d-flex justify-content-center '>
         <div className='Footeritem'>
             <ul className='list-unstyled d-flex gap-4 mx-5 px-5 pt-5'>
               <li>Careers</li>

@@ -21,7 +21,7 @@ function Training() {
           <p className='fs-4'>Here at FITNESS nGO, we focus on bringing you the most powerful workouts to meet your needs: our toolbox includes weighted battle ropes, kettlebells, TRX® suspension straps, Turf Zone, Med Balls, and the list goes on.</p>
           <p className='fs-4'>It may sound like a lot, but this world-class functional training equipment helps our trainers provide you with an array of High Intensity Interval Training (HIIT) workouts.</p>
           <p className='fs-4'>Our FITNESS nGO locations offer PowerPlate, an all-encompassing fitness program that includes revolutionary vibration technology. Come check it out for yourself!</p>
-          <button className='btn'>Sign Up for Personal Training</button>
+          <button className='btn btn-light'>Sign Up for Personal Training</button>
         </div>
       </div>
     </div>
