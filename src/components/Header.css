@@ -5,7 +5,9 @@
   font-family: "Gill Sans", sans-serif;
   font-size: 12px;
   font-weight: 800;
-  border: 2px solid transparent;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px;
 }
 @media (min-width:350px) and (max-width:400px) {
   .HeaderSection2 ul li{
