@@ -3,7 +3,7 @@ import './join.css'
 import Header from './Header'
 import Footer from './Footer'
 import { Link } from 'react-router-dom'
-function Join({joincotent,common,onSidebarToggle}) {
+function Join({joincotent,common}) {
   console.log({joincotent})
   return (
     <>
@@ -17,7 +17,7 @@ function Join({joincotent,common,onSidebarToggle}) {
      <div className='container-fluid text-light p-5' style={{backgroundColor:"rgb(201,201,201)"}}>
       <div className='row'>
         <div className='col-lg-6 col-md-12 col-sm-12'>
-          <div className='joincontent1 container px-5 p-5'>
+          <div className='joincontent1 container p-5'>
             <h1 className='fw-bold'>ULTIMATE <img src='https://static.wixstatic.com/media/d3fada_e92277911ce041ebb03f6232d64274a1~mv2.png/v1/fill/w_58,h_58,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/FitnessNGo_black%20green%20code%20is%20rg%20%2300fb00%20%20cmyk%20c64%20m0%20y100%20k0%20-%20Copy.png'/></h1>
             <ul className='list-unstyled'>
               {joincotent.map(function(item){
@@ -31,7 +31,7 @@ function Join({joincotent,common,onSidebarToggle}) {
           </div>
         </div>
         <div className='col-lg-6 col-md-12 col-sm-12'>
-          <div className='joincontent2 container px-5 p-5 '>
+          <div className='joincontent2 container p-5 '>
             <h1 className='fw-bold'>365 <img src='https://static.wixstatic.com/media/d3fada_e92277911ce041ebb03f6232d64274a1~mv2.png/v1/fill/w_58,h_58,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/FitnessNGo_black%20green%20code%20is%20rg%20%2300fb00%20%20cmyk%20c64%20m0%20y100%20k0%20-%20Copy.png'/></h1>
             <ul className='list-unstyled'>
               {joincotent.map(function(item){

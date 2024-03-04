@@ -5,7 +5,13 @@
 .aboutcontent h1{
   font-size: 60px;
 }
-@media (min-width:450px) and (max-width:750px) {
+@media (min-width:350px) and (max-width:499px) {
+  .aboutcontent h1{
+    font-size: 18px;
+    margin-top: 40%;
+  }
+}
+@media (min-width:499px) and (max-width:750px) {
   .aboutcontent h1{
     font-size: 30px;
     margin-top: 25%;

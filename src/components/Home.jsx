@@ -7,18 +7,20 @@ function Home() {
     <>
       <div className='container-fluid'>
       <div className='homecontent container-fluid p-5 text-light text-center'>
-          <h1 className='pt-5 mt-5'>2-FOR-1 <br/>ENROLLMENT</h1>
-          <h2>FOR COUPLES AND BEST FRIENDS!</h2>
+          <h1 className='pt-5 mt-5 fw-bold'>2-FOR-1 <br/>ENROLLMENT</h1>
+          <h2 className='fw-bold'>FOR COUPLES AND BEST FRIENDS!</h2>
           <Link to='/register'><button className='btn btn-danger'>CLICK HERE FOR FREE DAY PASS</button></Link>
         </div>
-        <div className='container-fluid'>
+        <div className='container'>
           <div className='row'>
-            <div className='homecontent1 col-lg-6 col-md-12 col-sm-12 px-5 p-5'>
-              <h1 className='px-5 hometext1'>EXPERT<br/> PERSONAL <br/>TRAINING</h1>
-              <p className='px-5 pt-5 hometext2 '>FITNESS nGO Gyms has the best personal training program in the Port Saint Lucie area. Our certified personal trainers are experts in their craft. We create the perfect programs to help you reach your goals. Everything begins with our energy and figuring out how to evolve that, then the journey begins. </p>
-              <button className='mx-5 mt-3 btn btn-danger'>FREE PERSONAL TRAINING COUPON</button>
+            <div className='homecontent1 d-flex justify-content-center col-lg-6 col-md-12 col-sm-12  p-5'>
+              <div>
+                <h1 className='hometext1'>EXPERT<br/> PERSONAL <br/>TRAINING</h1>
+                <p className='`pt-5 hometext2 '>FITNESS nGO Gyms has the best personal training program in the Port Saint Lucie area. Our certified personal trainers are experts in their craft. We create the perfect programs to help you reach your goals. Everything begins with our energy and figuring out how to evolve that, then the journey begins. </p>
+                <button className='mt-3 btn btn-danger'>FREE PERSONAL TRAINING COUPON</button>
+              </div>
             </div>
-            <div className='col-lg-6 col-md-12 col-sm-12 p-5'>
+            <div className='col-lg-6 col-md-12 col-sm-12 p-5 text-center'>
               <img className='img-fluid' src='https://static.wixstatic.com/media/d3fada_7d1ea558680d42ca9a48052ee00cc62d~mv2.jpg/v1/crop/x_0,y_1734,w_4672,h_4977/fill/w_575,h_613,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/DSC00571-Enhanced-NR.jpg'></img>
             </div>
           </div>
@@ -27,8 +29,8 @@ function Home() {
           <div className='homeitem'>
             <div className='container'>
               <div className='row text-light'>
-                <div className='col-lg-6 col-md-12 col-sm-12 pt-5'>
-                  <h1 className='homecontent2text fw-bolder p-5 pt-5'>Why <img src='https://static.wixstatic.com/media/d3fada_e92277911ce041ebb03f6232d64274a1~mv2.png/v1/fill/w_58,h_58,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/FitnessNGo_black%20green%20code%20is%20rg%20%2300fb00%20%20cmyk%20c64%20m0%20y100%20k0%20-%20Copy.png'/> is?</h1>
+                <div className='homecontent2text col-lg-6 col-md-12 col-sm-12 pt-5'>
+                  <h1 className=' fw-bolder p-5 pt-5'>Why <img src='https://static.wixstatic.com/media/d3fada_e92277911ce041ebb03f6232d64274a1~mv2.png/v1/fill/w_58,h_58,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/FitnessNGo_black%20green%20code%20is%20rg%20%2300fb00%20%20cmyk%20c64%20m0%20y100%20k0%20-%20Copy.png'/> is?</h1>
                   <h4 className='px-5' style={{fontWeight:"800"}}>Luxury Gym Experience Everyone Can Afford.</h4>
                   <ul className='homecard-content list-unstyled p-5'>
                     <li className='d-flex'>

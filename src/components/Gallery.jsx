@@ -51,7 +51,7 @@ function Gallery() {
     <>
     <div className='container-fluid bg-dark pt-5'>
       <div className='text-center'>
-        <img className='pt-5 mt-5'
+        <img className='pt-5 mt-5 img-fluid'
          src='/imgs/logowhite.webp'></img>
       </div>
          <button onClick={Rightbtn} className='rightbtn p-2 px-3' style={{borderRadius:"50%"}}>{<FaArrowAltCircleRight/>}</button>

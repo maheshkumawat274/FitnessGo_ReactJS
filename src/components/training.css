@@ -19,3 +19,8 @@
     height: 70vh;
   }
 }
+@media (min-width:350px) and (max-width:450px) {
+  .traincontent1{
+    height: 65vh;
+  }
+}

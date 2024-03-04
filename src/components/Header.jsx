@@ -25,7 +25,7 @@ function Header() {
             
           </ul>
         </div>
-        <div className='HeaderSection3 col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center align-items-center gap-3' >
+        <div className='HeaderSection3 col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center align-items-center' >
               <img src='https://static.wixstatic.com/media/0fdef751204647a3bbd7eaa2827ed4f9.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/0fdef751204647a3bbd7eaa2827ed4f9.png'></img>
               <img src='https://static.wixstatic.com/media/01c3aff52f2a4dffa526d7a9843d46ea.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/01c3aff52f2a4dffa526d7a9843d46ea.png'></img>
               <img src='/imgs/tiktok.png'></img>
