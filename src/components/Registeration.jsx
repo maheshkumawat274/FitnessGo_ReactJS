@@ -37,18 +37,17 @@ function Registeration() {
   return (
     <>
      <div className='container-fluid'>
-      <div className='registercontent container-fluid bg-light d-flex justify-content-center text-white'>
+      <div className='container-fluid bg-light d-flex justify-content-center text-white'>
         <div className='registermain bg-dark p-5'>
-        <div className='text-center'>
-          <img className='img-fluid' src='/imgs/register.webp'></img>
-        </div>
+                <div className='text-center'>
+                  <img className='img-fluid' src='/imgs/register.webp'></img>
+                </div>
                 <div className='registertext1'>COMPLETE THIS FORM AND A MEMBERSHIP</div>
                 <div className='registertext2'>ADVISOR WILL CONTACT YOU FOR YOUR FREE DAY PASS!</div>
                 <div className='registertext3'>MUST BE 18+ AND LOCAL RESIDENT.BY APPOINTMENT ONLY</div><br/>
                 <span>First name</span>
-                
                 <input className='form-control' type='text' onChange={FnameHandler}></input>
-                <spna>Last name</spna>
+                <span>Last name</span>
                 <input className='form-control' type='text' onChange={LnameHandler}></input>
                 <span>Email</span>
                 <input className='form-control' type='email' onChange={EmailHandler}></input>
