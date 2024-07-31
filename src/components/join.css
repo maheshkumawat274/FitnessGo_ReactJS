@@ -1,4 +1,4 @@
-.joincontent{
+/* .joincontent{
   height: 70vh;
   width: 100%;
   background-image: url('https://static.wixstatic.com/media/d3fada_5f18d7cbb55740d6ae4037e0305ccbf3~mv2.png/v1/fill/w_1899,h_769,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/d3fada_5f18d7cbb55740d6ae4037e0305ccbf3~mv2.png');
@@ -21,4 +21,132 @@
 .jointext button:hover{
   background-color: rgb(0, 251, 0);
   transition: .5s;
+} */
+
+/* CSS for joincontent */
+.joincontent {
+  height: 70vh;
+  width: 100%;
+  background-image: url('https://static.wixstatic.com/media/d3fada_5f18d7cbb55740d6ae4037e0305ccbf3~mv2.png/v1/fill/w_1899,h_769,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/d3fada_5f18d7cbb55740d6ae4037e0305ccbf3~mv2.png');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Common styles for join content sections */
+.joincontent1,
+.joincontent2 {
+  background-color: black;
+  border: 2px solid rgb(0, 251, 0);
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.joincontent1 ul,
+.joincontent2 ul {
+  padding: 0;
+}
+
+.joincontent1 li,
+.joincontent2 li {
+  padding: 10px 0;
+  border-bottom: 1px solid #444;
+}
+
+.joincontent1 li:last-child,
+.joincontent2 li:last-child {
+  border-bottom: none;
+}
+
+.jointext {
+  padding: 20px;
+}
+
+.jointext button {
+  background-color: black;
+  color: white;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.jointext button:hover {
+  background-color: rgb(0, 251, 0);
+}
+
+/* Responsive adjustments */
+@media (min-width: 768px) and (max-width: 992px) {
+  .joincontent {
+    height: 60vh;
+  }
+
+  .joincontent1,
+  .joincontent2 {
+    padding: 20px;
+  }
+
+  .joincontent1 h1,
+  .joincontent2 h1 {
+    font-size: 40px;
+  }
+
+  .jointext h1 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 767px) {
+  .joincontent {
+    height: 50vh;
+  }
+
+  .joincontent1,
+  .joincontent2 {
+    padding: 15px;
+  }
+
+  .joincontent1 h1,
+  .joincontent2 h1 {
+    font-size: 32px;
+  }
+
+  .jointext h1 {
+    font-size: 20px;
+  }
+
+  .jointext p {
+    font-size: 14px;
+  }
+
+  .jointext button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .joincontent {
+    height: 45vh;
+  }
+
+  .joincontent1,
+  .joincontent2 {
+    padding: 10px;
+  }
+
+  .joincontent1 h1,
+  .joincontent2 h1 {
+    font-size: 28px;
+  }
+
+  .joincontent1 img,
+  .joincontent2 img {
+    height: 40px;
+  }
+
+  .jointext h1 {
+    font-size: 18px;
+  }
+
+  .jointext button {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
 }

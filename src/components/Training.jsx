@@ -14,7 +14,7 @@ function Training() {
     <div className='traincontent2 container-fluid bg-light p-3'>
       <div className='row'>
         <div className='col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center'>
-          <img src='https://static.wixstatic.com/media/d3fada_4677300bb3cb44f8b1b6a32c2114c988~mv2.jpg/v1/fill/w_421,h_750,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/d3fada_4677300bb3cb44f8b1b6a32c2114c988~mv2.jpg'></img>
+          <img className='img-fluid' src='https://static.wixstatic.com/media/d3fada_4677300bb3cb44f8b1b6a32c2114c988~mv2.jpg/v1/fill/w_421,h_750,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/d3fada_4677300bb3cb44f8b1b6a32c2114c988~mv2.jpg'></img>
         </div>
         <div className='col-lg-6 col-md-12 col-sm-12 p-5'>
           <h1 className='fw-bold' style={{fontSize:"70px"}}>It's   <img className='img-fluid' src='https://static.wixstatic.com/media/d3fada_e92277911ce041ebb03f6232d64274a1~mv2.png/v1/fill/w_58,h_58,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/FitnessNGo_black%20green%20code%20is%20rg%20%2300fb00%20%20cmyk%20c64%20m0%20y100%20k0%20-%20Copy.png'/>    TIME.</h1>

@@ -1,8 +1,9 @@
-.Footeritem ul li:hover{
+.footeritem ul li a:hover{
   color: rgb(0, 251, 0);
   text-decoration: underline;
   cursor: pointer;
 }
-.Footeritem ul li{
+.footeritem ul li a{
   font-weight: 700;
+  text-decoration: none;
 }

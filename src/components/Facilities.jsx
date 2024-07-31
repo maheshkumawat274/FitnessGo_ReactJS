@@ -10,7 +10,7 @@ function Facilities(x) {
       <img src='https://static.wixstatic.com/media/d3fada_ce4bbb92f2be49b8a0ba8d0d16a13b1e~mv2.jpg/v1/fill/w_1899,h_740,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/d3fada_ce4bbb92f2be49b8a0ba8d0d16a13b1e~mv2.jpg'></img>
      
     </div>
-    <div className='facibtn contaier-fluid text-center'>
+    <div className='facibtn contaier-fluid text-center p-5'>
       <h1>$2 Million-Dollars in Renovations!</h1>
       <p>Come in and experience the best gym in the Port Saint Lucie area.</p>
       <Link to='/join'><button className='btn btn-primary w-50'>Join Now</button></Link>
