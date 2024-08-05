@@ -1,43 +1,33 @@
-/* 
-.HeaderSection2 ul li{
-  cursor: pointer;
-  margin-left: 15px;
-  font-family: "Gill Sans", sans-serif;
-  font-size: 12px;
-  font-weight: 800;
-  border: 2px solid black;
-  border-radius: 5px;
-  padding: 5px;
+/* Centering the navbar items */
+.navbar-nav {
+  display: flex;
+  justify-content: center; /* Centers items horizontally */
+  flex-direction: column;  /* Stacks items vertically */
+  width: 100%; /* Makes sure the items take full width */
 }
-@media (min-width:350px) and (max-width:400px) {
-  .HeaderSection2 ul li{
-    margin-left: 3px;
-    font-size: 11px;
+
+/* Ensure that the navbar collapse is centered */
+.navbar-collapse {
+  display: flex;
+  align-items: center; /* Centers items vertically */
+  justify-content: center; /* Centers items horizontally */
+}
+
+/* Optional: Adjustments for mobile view */
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    text-align: center; /* Centers text */
+  }
+  .lastvale{
+    position: relative;
   }
 }
-.HeaderSection2 ul li:hover{
-  transition: .5s;
-  color: rgb(0, 251, 0);
-  border: 2px solid rgb(0, 251, 0);
-  border-radius: 5px;
-}
-.HeaderSection3 button{
-  background-color: rgb(0, 251, 0);
-  color: black;
-  border: none;
-}
-.HeaderSection3 button:hover{
-  background-color: black;
-  color: white;
-}
-.HeaderSection3 img{
-  cursor: pointer;
-}
-.HeaderSection3{
-  gap: 5px;
-}
-@media (min-width:450px) and (max-width:1400px) {
-  .HeaderSection{
-    flex-direction: column;
+@media (max-width: 575px) {
+  .navbar-brand{
+    margin-left: 25px;
+
   }
-} */
+  .navbar-toggler{
+    margin-right: 25px;
+  }
+}

@@ -8,7 +8,7 @@ function Join({joincotent,common}) {
   return (
     <>
      <div className='joincontent'></div>
-     <div className='container-fluid text-center text-light p-3' style={{backgroundColor:"black"}}>
+     <div className='container-fluid text-center text-light p-3' style={{backgroundColor:"black"}} data-aos="fade-down">
       <h1>MEMBERSHIP OPTIONS</h1>
       <h1>STARTING AT $19.99 MONTHLY</h1>
       <h1>NO CONTRACTS</h1>
@@ -16,7 +16,7 @@ function Join({joincotent,common}) {
      </div>
      <div className='container-fluid text-light p-5' style={{backgroundColor:"rgb(201,201,201)"}}>
       <div className='row'>
-        <div className='col-lg-6 col-md-12 col-sm-12'>
+        <div className='col-lg-6 col-md-12 col-sm-12' data-aos="fade-down">
           <div className='joincontent1 container p-5'>
             <h1 className='fw-bold'>ULTIMATE <img src='https://static.wixstatic.com/media/d3fada_e92277911ce041ebb03f6232d64274a1~mv2.png/v1/fill/w_58,h_58,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/FitnessNGo_black%20green%20code%20is%20rg%20%2300fb00%20%20cmyk%20c64%20m0%20y100%20k0%20-%20Copy.png'/></h1>
             <ul className='list-unstyled'>
@@ -30,7 +30,7 @@ function Join({joincotent,common}) {
             </ul>
           </div>
         </div>
-        <div className='col-lg-6 col-md-12 col-sm-12'>
+        <div className='col-lg-6 col-md-12 col-sm-12' data-aos="fade-down">
           <div className='joincontent2 container p-5 '>
             <h1 className='fw-bold'>365 <img src='https://static.wixstatic.com/media/d3fada_e92277911ce041ebb03f6232d64274a1~mv2.png/v1/fill/w_58,h_58,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/FitnessNGo_black%20green%20code%20is%20rg%20%2300fb00%20%20cmyk%20c64%20m0%20y100%20k0%20-%20Copy.png'/></h1>
             <ul className='list-unstyled'>
@@ -45,7 +45,7 @@ function Join({joincotent,common}) {
           </div>
         </div>
       </div>
-      <div className='jointext container-fluid pt-3 text-dark mt-1 text-center'>
+      <div className='jointext container-fluid pt-3 text-dark mt-1 text-center'data-aos="fade-down">
         <p>Weekend Only membership not shown -- Minimum age to become a member is 16 years.</p>
         <h1 className='fs-3 fw-bold'>Click below to schedule your gym tour. We will respond promptly.</h1>
         <Link to='/register'><button className='btn btn-light px-5'>CLICK HERE</button></Link>
